@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Iortex: software development company</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace("btn-dark", "btn-light");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+      evt.currentTarget.classList.remove("btn-light");
+      evt.currentTarget.className += " btn-dark";
+    }
+  </script>
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+    <div class="container d-flex justify-content-end">
+      <div class="social-links">
+        <a href="https://twitter.com/iortex" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/iortex" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/iortex_technology/" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <h1 class=" mr-auto"><a href="index.html">IORTEX</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/favicon.png"><strong> iORTEX</strong></a></h1>-->
+
+      <nav class="main-nav d-none d-lg-block ">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a
+              class="dropdown-toggle"
+              style="color: black"
+              href="/shop-all"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu multi-column columns-3 pt-4 pb-4 pl-5">
+              <div class="row pl-5 pr-5">
+                <div class="col-md-4">
+                  <ul class="multi-column-dropdown">
+                    <a href="/categories/family_of_brands" style="color:rgb(255, 255, 255)" class=" pl-3 mr-5 bg-info"><b><strong >  BRAND IDENTITY  </strong></b></a>
+                    <li class="divider"></li>
+                    <li><a href="/subcategories/grow_to_life" style="font-weight: 700 !important;">Logo Designing</a></li>
+                    <li><a href="/subcategories/carpe_diem" style="font-weight: 700 !important;">Stationery Design</a></li>
+                    <li><a href="/subcategories/hippies_at_home" style="font-weight: 700 !important;">Banner Design</a></li>
+                    <li><a href="/subcategories/kuribl_link" style="font-weight: 700 !important;">Flyer Design</a></li>
+                    <!-- <li class="divider"></li>
+                    <li><a href="#">Promotions</a></li> -->
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="multi-column-dropdown">
+                    <a href="/categories/family_of_brands" style="color:rgb(255, 255, 255)" class=" pl-3 mr-5 bg-info"><b><strong>  WEBSITES  </strong></b></a>
+                    <li class="divider"></li>
+                    <li><a href="/subcategories/grow_to_life" style="font-weight: 700 !important;"> WEBSITE  Desiging</a></li>
+                    <li><a href="/subcategories/carpe_diem"   style="font-weight: 700 !important;"> WEBSITE development</a></li>
+                    <li><a href="/subcategories/hippies_at_home" style="font-weight: 700 !important;">Ecommerce WEBSITES</a></li>
+                    <li><a href="/subcategories/kuribl_link" style="font-weight: 700 !important;">CMS WEBSITES</a></li>
+                    <!-- <li><a href="/subcategories/philotimo">Philotimo</a></li>
+                    <li><a href="/subcategories/prana_kombucha">Prana Kombucha</a></li>
+                    <li><a href="/subcategories/river_valley_hemp_co">River Valley Hemp co.</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Promotions</a></li> -->
+                  </ul>
+                </div>
+                
+                <div class="col-md-4">
+                  <ul class="multi-column-dropdown">
+                  <a href="/categories/quality_goods" style="color:rgb(255, 255, 255)" class=" pl-3 mr-5 bg-info"><b><strong>  DIGITAL MARKETING  </strong></b></a>
+                    <li><a href="/subcategories/pets" style="font-weight: 700 !important;">SEO/SEM </a></li>
+                    <li><a href="/subcategories/lifestyle" style="font-weight: 700 !important;">SMO/SME</a></li>
+                    <li><a href="/subcategories/elderly"   style="font-weight: 700 !important;">Content Writing</a></li>
+                    <!-- <li><a href="/subcategories/athletes">Athletes</a></li>
+                    <li><a href="/subcategories/sexual_health">Sexual Health </a></li>
+                    <li><a href="/subcategories/everyone">Everyone</a></li> -->
+                  </ul>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <ul class="multi-column-dropdown">
+                  <a href="/categories/quality_goods" style="color:rgb(255, 255, 255)" class=" pl-3 mr-5 bg-info"><b><strong>  ANIMATIONS  </strong></b></a>
+                    <li><a href="/subcategories/pets" style="font-weight: 700 !important;">2d Animation </a></li>
+                    <li><a href="/subcategories/lifestyle"><b><strong style="font-weight: 700 !important;"> 3d Animation </strong></b></a></li>
+                    <li><a href="/subcategories/elderly"  style="font-weight: 700 !important;">Typographic Animation</a></li>
+                    <li><a href="/subcategories/athletes" style="font-weight: 700 !important;">Vedio Animation</a></li>
+                    <!-- <li><a href="/subcategories/sexual_health">Sexual Health </a></li>
+                    <li><a href="/subcategories/everyone">Everyone</a></li> -->
+                  </ul>
+                </div>
+                <div class="col-md-3 mt-4">
+                  <ul class="multi-column-dropdown">
+                  <a href="/categories/quality_goods" style="color:rgb(255, 255, 255)" class=" pl-3 mr-5 bg-info"><b><strong>  NFT & ART  </strong></b></a>
+                    <li><a href="/subcategories/pets" style="font-weight: 700 !important;">NFt  Art Designing </a></li>
+                    <!-- <li><a href="/subcategories/lifestyle">Lifestyle</a></li>
+                    <li><a href="/subcategories/elderly">Elderly</a></li>
+                    <li><a href="/subcategories/athletes">Athletes</a></li>
+                    <li><a href="/subcategories/sexual_health">Sexual Health </a></li>
+                    <li><a href="/subcategories/everyone">Everyone</a></li> -->
+                  </ul>
+                </div>
+                <div class="col-md-4 mt-5  pt-5">
+                  <img src="./assets/img/1.jpeg" width="120%" alt="" srcset="">
+                </div>
+                
+              </div>
+            </ul>
+          </li>
+          <li class=""><a href="./pricing.html">Portfolio</a></li>
+    
+
+          <li class=""><a href="index.html">Pricing</a></li>
+  
+
+
+
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <!-- <li><a href="#team">Team</a></li> -->
+          <li><a href="#footer">Contact Us</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </nav><!-- .main-nav-->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class=" d-flex h-100">
+      <div class="pl-5 row justify-content-center align-self-center" data-aos="fade-up">
+        <div class=" col-md-6 intro-info  order-md-first order-last" style="color: white;" data-aos="zoom-in" data-aos-delay="100">
+          <h2 style="color: white;" class="pl-5">Digital Solutions<br>for Your <span>Business!</span></h2>
+          <p class="bg-">IORTEX Technologies has a complete set of digital services from design,   development to deployment. Lets discuss your requirements.</p>
+          <div>
+            <!-- <a href="#footer" class="btn-get-started scrollto">Get Estimate</a>
+            <a href="#services" class="btn-get-started scrollto">Our Services</a> -->
+          </div>
+        </div>
+
+        <div class="col-md-6 pl-5   intro-img order-md-last order-first" data-aos="zoom-out" data-aos-delay="200">
+          <!-- <img src="assets/img/intro-img.svg" alt="" class="img-fluid"> -->
+          <div class="ml-5">
+            <div class="p-5 ml-5 form bg-danger">
+
+              <h4>Send us a message</h4>
+  
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+  
+                <!-- <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div> -->
+  
+                <div class="text-center"><button type="submit" class="btn btn-info p-2 pl-5 pr-5 mt-3" title="Send Message">Send Message</button></div>
+              </form>
+  
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <section id="home-best-known  pr-4 ml-5 mr-5">
+    <div class="pt-3 pb-3  m-5 d-flex justify-content-center " style="background-color: #233d69; border-radius: 45px;">
+      <div class="tab">
+        <button class="tablinks m-4 p-4  btn btn-outline-info" style="font-weight: 900 ; font-size: 24px;" onclick="openCity(event, 'LIQUIDITY')">LOGO</button>
+        <button class="tablinks m-4 p-4  btn btn-outline-info" style="font-weight: 900 ;font-size: 24px; " onclick="openCity(event, 'Transparency')">NFT</button>
+        <button class="tablinks m-4 p-4  btn btn-outline-info" style="font-weight: 900 ;font-size: 24px; " onclick="openCity(event, 'Data')">WEB</button>
+        <button class="tablinks m-4 p-4  btn btn-outline-info" style="font-weight: 900 ;font-size: 24px; " onclick="openCity(event, 'Data')">SOCIAL MEDIA MARKETING</button>
+        <button class="tablinks m-4 p-4  btn btn-outline-info" style="font-weight: 900 ;font-size: 24px; " onclick="openCity(event, 'Data')">FLYERS</button>
+        <button class="tablinks m-4 p-4  btn btn-outline-info" style="font-weight: 900 ;font-size: 24px; " onclick="openCity(event, 'Data')">2D/3D Animation</button>
+      </div>              
+    </div>
+
+    <!-- Tab1 -->
+    <div id="LIQUIDITY" class="tabcontent " style="display:block">
+
+    </div>
+    
+    <!-- Tab2  -->
+    <div id="Transparency" class="tabcontent">
+      <div class="card-fancy p-5 m-5">
+        <h2>Iortex Technologies is a full-stack studio NFT production company In order to traverse the bold and uncharted ocean of unlimited art successfully, we want to be involved in every phase of your NFT project.
+
+          Our team consists of professionals with experience in marketing, coding, the arts and entertainment, and the cryptocurrency sector. In general, crypto art, NFTs, and artists all hold a special place in our hearts. We'll help you every step of the way so you can stand out in the endless crypto NFT community.</h2>
+      </div>
+    </div>
+    
+    <div id="Data" class="tabcontent">
+      <div class="d-flex justify-content-center">
+        <div class="text-left m-3 mr-5">
+          <h1><b style="color: #005091;"> Revolutionary, data-driven. </b><br>investment approach.
+            </h1>
+            <p style="color: #818181;" class="mt-4">
+              ourtizolo built proprietary data science tools to <br> improve upon traditional real estate processes. <br> Our technology produces deeper investment <br> insights that improve investment performance,⁴ <br> while creating efficiencies that allow us to reduce <br> costs for our investors. </p>
+            <button type="button" class="btn p-2 ml-3 pl-5 pr-5" style="border-radius:20px !important; background-color:#005091; color:white">Learn More</button>
+        </div>
+        <div class="m-3 ml-5">
+          <img :src="mySVG3" />
+        </div>
+      </div>
+      <h4 style="color: #818181;" class="m-4">“ourtizolo accomplishes its goals with technology, which it <br> employs to provide investors with a transparent platform that <br> they can log into to learn of new investment opportunities, to <br> get data on properties and markets, and to get practical <br> information about individual portfolios.”</h4>
+
+    </div>
+  </section>
+
+
+  <!-- <ul class="mystickyelements-lists mysticky" data-mystickyelement-widget="0">
+    <li class="mystickyelements-minimize" data-mystickyelement-widget="0">
+<span class="mystickyelements-minimize minimize-position-left minimize-position-mobile-left" style="background: #000000">←</span>
+</li>
+
+    <li id="mystickyelements-contact-form" class="mystickyelements-contact-form element-desktop-on element-mobile-on" style="left: 0px;">
+          <span class="mystickyelements-social-icon " style="background-color: #e70A34; color: #ffffff;" data-mystickyelement-widget="0"><i class="far fa-envelope"></i>GET 70% OFF!</span>
+          <div class="element-contact-form" style="background-color: rgb(255, 255, 255); top: -26.1875px;">
+              <h3 style="color: #e70a34;background-color:#ffffff">
+FILL THIS FORM &amp; GET 70% OFF NOW!													<a href="javascript:void(0);" class="element-contact-close" data-mystickyelement-widget="0"><i class="fas fa-times"></i></a>
+</h3>
+              <form id="stickyelements-form" class="stickyelements-form" action="" method="post" autocomplete="off" enctype="multipart/form-data" data-mystickyelement-widget="0">
+<input type="hidden" name="action" value="mystickyelements_contact_form">
+<input type="hidden" name="security" value="0f07bb30eb">
+                    <input class=" required" type="text" id="contact-form-name" name="contact-form-name" value="" placeholder="Name*" required="" autocomplete="off">
+                    <input class=" required" type="tel" id="contact-form-phone" name="contact-form-phone" value="" placeholder="Phone*" required="" autocomplete="off">
+                    <input class="email  required" type="email" id="contact-form-email" name="contact-form-email" value="" placeholder="Email*" required="" autocomplete="off">
+                    <select id="contact-form-dropdown" name="contact-form-dropdown" class=" required" required="">
+
+<option value="" disabled="" selected="">- Select Services*</option>
+                            <option value="Logo Design">Logo Design</option>
+                            <option value="2D Animation">2D Animation</option>
+                            <option value="3D Animation">3D Animation</option>
+                            <option value="Website Design">Website Design</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                        </select>
+
+                    <textarea class="" id="contact-form-message" name="contact-form-message" placeholder="Message"></textarea>
+                  <p class="mse-form-success-message" id="mse-form-error" style="display:none;"></p>
+<input id="stickyelements-submit-form" type="submit" name="contact-form-submit" value="Submit" style="background-color: #e70a34;color:#FFFFFF;">
+                  <input type="hidden" name="nonce" value="632f482b3ebf61664043051632f482b3ebf8">
+<input type="hidden" name="widget_name" value="">
+<input type="hidden" name="widget_number" value="">
+<input type="hidden" name="form_id" value="d6321e0f91">
+<input type="hidden" id="stickyelements-page-link" name="stickyelements-page-link" value="https://designin30minutes.com/pricing">
+</form>
+</div>
+</li>
+      <li id="mystickyelements-social-phone" class="mystickyelements-social-icon-li mystickyelements-social-phone element-desktop-on element-mobile-on" style="left: 0px;">
+                <style>
+                    </style>
+                <span class="mystickyelements-social-icon social-phone social-custom" style="background: #26D37C">
+                    <a href="tel:+15392444563">
+                        <i class="fa fa-phone"></i>
+                        </a>
+                </span>
+
+            <span class="mystickyelements-social-text " style="background: #26D37C;">
+                  <a href="tel:+15392444563">
+Call Us																											</a>
+              </span>
+
+</li>
+
+        <li id="mystickyelements-social-custom_one" class="mystickyelements-social-icon-li mystickyelements-social-custom_one element-desktop-on element-mobile-on" style="left: 0px;">
+                <style>
+                    </style>
+                <span class="mystickyelements-social-icon social-custom_one social-custom" style="background: rgb(1, 4, 10); border-bottom-right-radius: 10px;">
+                    <a href="javascript:void(Tawk_API.toggle())">
+                        <i class="fab fa-rocketchat"></i>
+                        </a>
+                </span>
+
+            <span class="mystickyelements-social-text " style="background: #01040a;">
+                  <a href="javascript:void(Tawk_API.toggle())">
+Chat With Us																											</a>
+              </span>
+
+</li>
+
+  </ul> -->
+
+  
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/features-1.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="about-content col-lg-6 wow fadeInUp pt-5 pt-lg-0" data-aos="fade-left" data-aos-delay="150">
+              <h2>About Us</h2>
+              <h3>We accelerate your journey to creating disruptive products & solutions.</h3>
+              <p>A software and mobile app development company with a world-class team of talented developers, designers, engineers, and creative artists. We are motivated to build elegant and functional digital products that solve complex problems.</p>
+              <ul>
+                <li><i class="fa fa-heart"></i><strong>Our Belief: </strong> To achieve greatness, we have to be able to be brutally honest with ourselves.</li>
+                <li><i class="fa fa-eye"></i><strong>Our Vision: </strong> Is that businesses can achieve more by having automated systems in place. We help organizations and startups with complete automation by leveraging cutting-edge technologies.</li>
+                <li><i class="fa fa-flag"></i><strong>Our Mission: </strong> Is to be a leading digital services provider by creating innovative applications and helping the digital ecosystem grow.</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Services</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="light-yellow" class="bi bi-alipay" viewBox="0 0 16 16">
+                <path d="M2.541 0H13.5a2.551 2.551 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536-.303-.113-.624-.232-.957-.353a12.98 12.98 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.551 2.551 0 0 1 13.5 16H2.541A2.552 2.552 0 0 1 0 13.437V2.563A2.552 2.552 0 0 1 2.541 0Z"/>
+                <path d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z"/>
+              </svg></div>
+              <h4 class="title"><a href="">Logo Design</a></h4>
+              <p class="description">A combination of digital marketing services, such as SEO, PPC & Social media advertising can help your business achieve extraordinary growth.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#8660fe" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+              </svg></div>
+              <h4 class="title"><a href="">Websites</a></h4>
+              <p class="description">A combination of digital marketing services, such as SEO, PPC & Social media advertising can help your business achieve extraordinary growth.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#3fcdc7" class="bi bi-badge-hd-fill" viewBox="0 0 16 16">
+                <path d="M10.53 5.968h-.843v4.06h.843c1.117 0 1.622-.667 1.622-2.02 0-1.354-.51-2.04-1.622-2.04z"/>
+                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm5.396 3.001V11H6.209V8.43H3.687V11H2.5V5.001h1.187v2.44h2.522V5h1.187zM8.5 11V5.001h2.188c1.824 0 2.685 1.09 2.685 2.984C13.373 9.893 12.5 11 10.69 11H8.5z"/>
+              </svg></i></div>
+              <h4 class="title"><a href="">Banners</a></h4>
+              <p class="description">A combination of digital marketing services, such as SEO, PPC & Social media advertising can help your business achieve extraordinary growth.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Infrastructure & DevOps</a></h4>
+              <p class="description">Build and deploy an intelligent, automated & technologically enhanced software, using cloud services and network transformation.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200"">
+        <div class=" box">
+            <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+            <h4 class="title"><a href="">E-commerce</a></h4>
+            <p class="description">Enrich your ecommerce propositions at every step of the project life cycle for both new ecommerce ventures and re-platforming projects.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="box">
+            <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
+            <h4 class="title"><a href="">Digital Marketing</a></h4>
+            <p class="description">A combination of digital marketing services, such as SEO, PPC & Social media advertising can help your business achieve extraordinary growth.</p>
+          </div>
+        </div>
+
+        
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
+          <div class="box">
+            <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+            <h4 class="title"><a href="">UI/UX Design</a></h4>
+            <p class="description">We help products & services take flight & grow through collaborative ideation, functional design & a keen focus on performance.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="box">
+            <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+            <h4 class="title"><a href="">Mobile Apps</a></h4>
+            <p class="description">Develop native & cross-platform mobile applications that give your business a wider market coverage, maximize ROI & boost customer engagement.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="box">
+            <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+            <h4 class="title"><a href="">Web Apps</a></h4>
+            <p class="description">Create scalable & powerful backend paired with intuitive user interfaces, that help accelerate the performance of custom-built web applications.</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      </div>
+    </section> -->
+    <!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/features-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6">
+            <div class="why-us-content">
+              <p>Here are some of the reasons we think you should consider working with iORTEX Technologies. As your full service web development, online marketing and web hosting company.</p>
+              <p>
+                We believe in a consultative and holistic approach to web solutions. We learn about your business, your short-term and long-term goals, growth opportunities and lessons learned from your past experiences. Once we understand your business ideas and goals, we can propose a plan and guide you to implement the plan for success.
+              </p>
+
+              <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa fa-diamond" style="color: #f058dc;"></i>
+                <h4>Business savvy</h4>
+                <p>We design, evaluate and justify technology solutions from a thorough understanding of the business benefit for your company.</p>
+              </div>
+
+              <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa fa-object-group" style="color: #ffb774;"></i>
+                <h4>One Stop Shop</h4>
+                <p>We handle all aspects of software development life cycle from planing, design, development, testing, deployment, maintainence and any other related technology needs. We focus on your digital needs so you can focus on your business.</p>
+              </div>
+
+              <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa fa-language" style="color: #589af1;"></i>
+                <h4>Comprehensive project management</h4>
+                <p>Our extensive experience managing all types of complex projects means we will handle every detail and coordinate all vendors so you can rest assured that your project will be completed on time and on budget.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">89</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">142</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,264</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">19</span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <!--
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="assets/img/portfolio/app1.jpg" data-gall="portfolioGallery" title="App 1" class="link-preview venobox"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 3</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="assets/img/portfolio/web3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 3"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 2</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="assets/img/portfolio/app2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 2</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="assets/img/portfolio/card2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 2"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 2</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="assets/img/portfolio/web2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 2"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 3</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="assets/img/portfolio/app3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 1</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="assets/img/portfolio/card1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 1"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 3</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="assets/img/portfolio/card3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 1</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="assets/img/portfolio/web1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    -->
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!--
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel">
+
+              <div class="testimonial-item">
+                <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+              </div>
+
+              <div class="testimonial-item">
+                <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+              </div>
+
+              <div class="testimonial-item">
+                <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                </p>
+              </div>
+
+              <div class="testimonial-item">
+                <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    -->
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <!--
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    -->
+    </section><!-- End Team Section -->
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <header class="section-header">
+          <h3>Our Clients</h3>
+        </header>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="assets/img/clients/client-1.png" alt="">
+          <img src="assets/img/clients/client-2.png" alt="">
+          <img src="assets/img/clients/client-3.png" alt="">
+          <img src="assets/img/clients/client-4.png" alt="">
+          <img src="assets/img/clients/client-5.png" alt="">
+          <img src="assets/img/clients/client-6.png" alt="">
+          <img src="assets/img/clients/client-7.png" alt="">
+          <img src="assets/img/clients/client-8.png" alt="">
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="104014791518946"
+  theme_color="#0A7CFF">
+      </div>
+    <!-- End of Facebook Messenger -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+              <div class="col-sm-6">
+                <div class="footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="col-sm-6">
+                <div class="footer-links">
+                  <h4>Contact Us</h4>
+                  <p> 
+                    <i class="fa fa-envelope" style="font-size: 16px;"></i> info@iortex.com</br></br>
+                    <i class="fa fa-phone" style="font-size: 16px;"></i> +923062667489</br></br>
+                    <i class="fa fa-map-marker" style="font-size: 18px;"></i>  UK, Manchester.</br>
+                  </p>
+
+                <div class="social-links">
+                  <a href="https://twitter.com/iortex" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/iortex" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/iortex" class="instagram"><i class="fa fa-instagram"></i></a>
+                  <!-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+                </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="credits">
+        &copy; Designed by <a href="https://iortex.com/">IORTEX Technologies</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
